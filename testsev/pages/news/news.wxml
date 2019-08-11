@@ -1,0 +1,15 @@
+<!--pages/news/news.wxml-->
+<view class="total">
+<!--最新消息 -->
+  <view class="title">
+    <image class="image1" src="/image/news.png"></image>
+      <text class="text">最新消息</text>
+   </view>
+   <newslist id="newslist" wx:for="{{newslist}}" wx:key="unique"
+   image="{{item.image}}"
+   business="{{item.business}}"
+   content="{{item.content}}"
+   time="{{item.time}}"
+   state="{{item.state}}">
+   </newslist>
+</view>

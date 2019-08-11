@@ -1,0 +1,25 @@
+<!--pages/collect/collect.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">商品</view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">店铺</view>
+</view>
+ 
+<swiper current="{{currentTab}}" duration="300" bindchange="swiperTab" style="height:1280rpx">
+<swiper-item>
+  <store id="store" wx:for="{{storelist}}" wx:key="unique"
+   title="{{item.title}}"
+   image="{{item.image}}"
+   price="{{item.price}}"
+   number="{{item.number}}"
+   imageNumber="{{item.imageNumber}}">  
+  </store>
+</swiper-item>
+<swiper-item>
+  <store id="shop" wx:for="{{shoplist}}" wx:key="unique"
+   title="{{item.title}}"
+   image="{{item.image}}"
+   number="{{item.number}}"
+   imageNumber="{{item.imageNumber}}">  
+  </store>
+</swiper-item>
+</swiper>

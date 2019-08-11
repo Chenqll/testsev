@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "newslist":"/components/newslist/newslist"
+  },
+  "navigationBarTitleText": "消息"
+}

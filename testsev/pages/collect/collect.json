@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "store": "/components/store/store",
+    "shop": "/components/shop/shop"
+  },
+  "navigationBarTitleText": "我的收藏"
+}

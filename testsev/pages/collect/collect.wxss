@@ -1,0 +1,26 @@
+/* pages/collect/collect.wxss */
+.swiper-tab {
+  width: 100%;
+  border-bottom: 3rpx solid #ccc;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+ 
+.swiper-tab-item {
+  width: 30%;
+  color: #434343;
+  /* border:1px solid #ccc; */
+}
+ 
+.active {
+  color: rgb(243, 42, 42);
+  border-bottom: 4rpx solid rgb(243, 42, 42);
+  width:10%
+}
+.swiper{
+  height: 100%
+}

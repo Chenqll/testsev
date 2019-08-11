@@ -1,0 +1,16 @@
+<!--components/newslist/newslist.wxml-->
+  <view class="container">
+    <view class="imageview">
+      <image class="image" src="{{image}}"></image>
+        <image class="stateimage"  wx:if="{{state==true}}" src="/image/red.png"></image>
+    </view>
+    <view class="right">
+    <view class="textview">
+        <text class="text1">{{business}}</text>
+        <text class="text2">{{content}}</text>
+    </view>
+    <view class="timeview">
+      <text class="text3">{{time}}</text>
+    </view>
+  </view>
+</view>

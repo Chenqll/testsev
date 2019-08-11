@@ -1,0 +1,23 @@
+<!--components/store/store.wxml-->
+<view class="title">
+  <view class="first">
+    <view class="second">
+  <image class="image" src="{{image}}"></image>
+    </view>
+    <view class="third">
+    <text class="content">{{title}}</text>
+     <view class="pingjia">
+       <view class="imageview" >
+         <image class="image-customer" wx:for="{{imageNumber}}" src="{{item.images}}"></image>
+        </view>
+        <text class="evaluate">{{number}}人收藏</text>
+    </view>
+    <view class="fouth">
+    <view class="priceview">
+ 
+  </view>
+  <text class="delete">删除</text>
+  <button class="buy">进入店铺</button></view>
+  </view>
+  </view>
+  </view>

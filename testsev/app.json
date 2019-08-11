@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/news/news",
+   "pages/collect/collect",
+    "components/store/store",
+    "components/shop/shop",
+    "components/newslist/newslist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+      },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/news/news",
+      "text": "消息",
+      "iconPath": "/image/freeMess.png",
+      "selectedIconPath": "/image/selectMess.png"
+    },
+    {
+      "pagePath": "pages/collect/collect",
+      "text": "收藏",
+      "iconPath": "/image/favorites.png",
+      "selectedIconPath": "/image/selectfavorites.png"
+    }]
+  }
+}
